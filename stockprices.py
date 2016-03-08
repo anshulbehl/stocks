@@ -52,3 +52,5 @@ for key in data:
 	#print key,data[key]['current'],data[key]['low'],data[key]['high']
 	#print("{0:10} {0:10} {0:10}".format(key,data[key]['current'],data[key]['low']))
 	print('%-25s%-25s%-25s%-25s%-25s%-25s%-25s'%(key.upper(),data[key]['current'],data[key]['low'],data[key]['high'],data[key]['open'],data[key]['ask'],data[key]['bid']))  
+
+print "This is a latest change in develop branch"
